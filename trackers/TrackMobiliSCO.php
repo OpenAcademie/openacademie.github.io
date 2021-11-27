@@ -3,18 +3,18 @@
     file_put_contents('test.txt', serialize($_GET));
     $datas = [
     //Ces lignes correspondent aux colonnes du tableau qui sera rempli
-        accessVersion',
-        runtime',
-        OS',
-        version',
-        RNE',
-        commune',
-        etablissement',
-        nbeleves',
-        nbvoyages',
-        nbvoyageurs',
-        nbaccompagnateurs',
-        totalbudgets'
+        'accessVersion',
+        'runtime',
+        'OS',
+        'version',
+        'RNE',
+        'commune',
+        'etablissement',
+        'nbeleves',
+        'nbvoyages',
+        'nbvoyageurs',
+        'nbaccompagnateurs',
+        'totalbudgets'
     ];
     $dbhost = "openacqae1945.mysql.db";
     $username = "openacqae1945";
